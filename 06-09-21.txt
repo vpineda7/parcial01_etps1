@@ -1,0 +1,11 @@
+git status
+curl -u vpineda7:%tokenGithub% https://api.github.com/user/repos -d "{\"name\":\"parcial01_etps1\"}"
+git init
+git remote add origin "https://github.com/vpineda7/parcial01_etps1"
+git remote -v
+git add . 
+git status
+git commit -m "final commit 06-09-21"
+git status
+git push origin master
+doskey /history >> 06-09-21.txt

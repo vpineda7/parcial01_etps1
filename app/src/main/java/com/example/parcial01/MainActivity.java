@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             , tvPago
             , tvNormales
             , tvDobles
-            , tvTriples
+            , tvTriplesdo
             , tvPagoNeto;
 
     Button btnCalcular, btnNuevo;
